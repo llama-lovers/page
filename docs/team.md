@@ -34,8 +34,3 @@ AI Engineer / Backend Developer. Graduate of Lublin University of Technology and
 
 [GitHub: JakisTam-maTsikaJ](https://github.com/JakisTam-maTsikaJ)
 
-## HackYeah 2026
-
-Illia, Bartłomiej, Michał and Jakub worked on FastFence and FastEcho. Illia led FastFence; Bartłomiej led FastEcho.
-
-[Hackathon projects](hackathons.md)
