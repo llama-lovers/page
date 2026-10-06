@@ -1,0 +1,21 @@
+site_name: Llama Lovers
+site_url: https://llama-lovers.org/
+site_description: Tworzymy otwarte projekty AI. Poznaj Llama Lovers, nasze produkty i zespół.
+repo_url: https://github.com/llama-lovers
+copyright: Llama Lovers · Zbudowane z ciekawości.
+theme:
+  name: null
+  custom_dir: theme
+nav:
+  - Nasz zespół: team.md
+  - Projekty: projects/index.md
+  - Na hackathonach: hackathons.md
+  - GitHub: github.md
+plugins: []
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - fenced_code
+extra_css:
+  - stylesheets/site.css
