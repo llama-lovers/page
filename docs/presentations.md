@@ -1,35 +1,29 @@
 ---
-title: Prezentacje
+title: Presentations and demos
 ---
-<p class="eyebrow">DEMO / SLIDES / HACKYEAH 2026</p>
-# Zobacz pomysł w działaniu.
+# Presentations and demos
 
-<p class="lead">Krótkie demonstracje, prezentacje i materiały techniczne naszych projektów. Przejdź od opisu problemu do konkretnego scenariusza użycia.</p>
+See the problem, the approach and a working scenario for each of our HackYeah 2026 projects.
 
-<div class="presentation-card fence" markdown>
-<span class="tag">01 / FASTFENCE / AI CONTROL LAYER</span>
+## FastFence
 
-## Bezpieczeństwo agentów AI
+The final showcase covers policy changes, protection decisions, Laya review, document processing and integration examples. The complete presentation contains ten slides.
 
-Polityki, decyzje ochrony, przegląd zmian z Laya i przetwarzanie dokumentów. Film oraz pełna prezentacja końcowa z HackYeah 2026.
+[Watch on YouTube ↗](https://youtu.be/mGUgZJC3diA){ .md-button .md-button--primary }
+[PDF slides ↗](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.pdf){ .md-button }
+[PowerPoint ↗](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.pptx){ .md-button }
 
-[▶ Oglądaj na YouTube](https://youtu.be/mGUgZJC3diA){ .button }
-[Prezentacja PDF ↗](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.pdf){ .button .secondary }
-[Slajdy PPTX ↗](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.pptx){ .button .secondary }
+- [Final recorded demonstration](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.mp4)
+- [Presentation materials and speaker notes](https://github.com/llama-lovers/FastFence/tree/main/presentation)
+- [Project overview](projects/fastfence.md)
 
-[Film w repozytorium](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.mp4) · [Materiały i polskie notatki](https://github.com/llama-lovers/FastFence/tree/main/presentation) · [Strona projektu](projects/fastfence.md)
-</div>
-<div class="presentation-card echo" markdown>
-<span class="tag">02 / FASTECHO / ACCESSIBILITY</span>
+## FastEcho
 
-## Internet, z którym można rozmawiać
+A demonstration of voice commands, interaction with the active page and result feedback through a screen reader or speech synthesis.
 
-Demonstracja rozszerzenia Chrome: polskie polecenia głosowe, interakcja ze stroną i informacja o wyniku dla osoby korzystającej z czytnika ekranu lub syntezy mowy.
+[Watch on YouTube ↗](https://youtu.be/zODavr68b5s){ .md-button .md-button--primary }
+[Explore FastEcho](projects/fastecho.md){ .md-button }
 
-[▶ Oglądaj na YouTube](https://youtu.be/zODavr68b5s){ .button }
-[Poznaj FastEcho →](projects/fastecho.md){ .button .secondary }
+[Code and setup instructions](https://github.com/llama-lovers/FastEcho)
 
-[Kod i instrukcje uruchomienia](https://github.com/llama-lovers/FastEcho)
-</div>
-
-Filmy otwierają się na YouTube. Materiały FastFence są dostępne w publicznym [katalogu prezentacji projektu](https://github.com/llama-lovers/FastFence/tree/main/presentation).
+Videos open on YouTube. FastFence slides and recordings are hosted in the public project repository.

@@ -1,26 +1,25 @@
 ---
 title: GitHub
 ---
-<p class="eyebrow">KOD / DOKUMENTACJA / WSPÓŁPRACA</p>
-# Otwarte pomysły. Otwarty kod.
+# GitHub
 
-<p class="lead">Nasze projekty mieszkają na GitHubie. Znajdziesz tam kod źródłowy, instrukcje uruchomienia i dokumentację techniczną.</p>
+Our projects live on GitHub. Explore the source, read the setup instructions and see how each tool works.
 
-[Organizacja llama-lovers ↗](https://github.com/llama-lovers){ .button }
-[Wszystkie repozytoria ↗](https://github.com/orgs/llama-lovers/repositories){ .button .secondary }
+[llama-lovers organization ↗](https://github.com/llama-lovers){ .md-button .md-button--primary }
+[All repositories ↗](https://github.com/orgs/llama-lovers/repositories){ .md-button }
 
-## Wybierz repozytorium
+## Repositories
 
-| Repozytorium | Co znajdziesz w środku |
+| Repository | What's inside |
 | --- | --- |
-| [FastFence ↗](https://github.com/llama-lovers/FastFence) | Kontrola AI, polityki, testy, dokumentacja i prezentacja. |
-| [FastEcho ↗](https://github.com/llama-lovers/FastEcho) | Rozszerzenie Chrome, backend i lokalne demo dostępności. |
-| [Urban Kompas ↗](https://github.com/llama-lovers/urban-kompas) | Analityka danych miejskich, mapy i pipeline danych. |
-| [Breathalyzer ↗](https://github.com/llama-lovers/breathalyzer) | Detekcja obiektów, notebooki i łączenie predykcji modeli. |
-| [Ta strona ↗](https://github.com/llama-lovers/page) | Źródła strony llama-lovers.org w MkDocs. |
+| [FastFence ↗](https://github.com/llama-lovers/FastFence) | AI controls, policies, tests, documentation and presentation materials. |
+| [FastEcho ↗](https://github.com/llama-lovers/FastEcho) | Chrome extension, backend and local accessibility demo. |
+| [Urban Kompas ↗](https://github.com/llama-lovers/urban-kompas) | Urban analytics, maps and a data-processing pipeline. |
+| [Breathalyzer ↗](https://github.com/llama-lovers/breathalyzer) | Object detection, notebooks and prediction fusion. |
+| [This website ↗](https://github.com/llama-lovers/page) | The MkDocs source for llama-lovers.org. |
 
-## Chcesz się włączyć?
+## Get involved
 
-Zacznij od README wybranego projektu. Jeśli masz pomysł, pytanie lub znalazłeś błąd, otwórz issue w odpowiednim repozytorium. Zmiany możesz zaproponować przez pull request.
+Start with a project's README. Open an issue if you have a question, an idea or a bug report. Propose code changes through a pull request.
 
-[Poznaj osoby za projektami →](team.md){ .text-link }
+[Meet the people behind the projects →](team.md)

@@ -1,9 +1,11 @@
 # Llama Lovers — llama-lovers.org
 
-Strona zespołu zbudowana w **MkDocs**, publikowana przez **GitHub Pages**.
-Własny motyw HTML/CSS, polskie treści i lokalne materiały graficzne.
+English-only team website built with **MkDocs Material**, published on **GitHub Pages**.
+It uses the same Material layout and teal accents as FastFence, a white/light and
+black/dark palette, and the supplied llama artwork as a theme-aware logo and background.
+The theme selector remembers the visitor's choice. Light mode is the initial default.
 
-## Uruchomienie
+## Local preview
 
 ```sh
 uv venv .venv
@@ -11,49 +13,35 @@ uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/mkdocs serve
 ```
 
-Podgląd: http://127.0.0.1:8000. Kontrola produkcyjna:
+Default address: http://127.0.0.1:8000.
 
 ```sh
 .venv/bin/mkdocs build --strict
 ```
 
-## Treści
+## Content
 
-- `docs/team.md`: nasz zespół.
-- `docs/projects/`: katalog projektów i szczegóły FastFence / FastEcho.
-- `docs/hackathons.md`: projekty na hackathonach z demo i slajdami.
-- `docs/github.md`: repozytoria i współpraca.
-- `docs/presentations.md`: dodatkowe materiały prezentacyjne.
-- `theme/`: własny motyw MkDocs.
-- `docs/stylesheets/site.css`: układ responsywny i oprawa graficzna.
+- `docs/team.md`: our team.
+- `docs/projects/`: project catalog and FastFence / FastEcho details.
+- `docs/hackathons.md`: hackathon projects, demos and slides.
+- `docs/github.md`: repositories and contributing.
+- `docs/presentations.md`: presentation materials.
+- `docs/stylesheets/site.css`: theme-aware branding and llama background.
 
-Linki projektów sprawdzono 6 października 2026. Publiczne repozytoria to
-`FastFence` i `FastEcho`. `llama-lovers/presentations` zwracało 404;
-wykorzystano publiczne materiały `FastFence/presentation` i podane filmy.
-Prywatne zaproszenia oraz oceny widoczne tylko dla zespołu nie są publikowane.
+Public project URLs were checked on 6 October 2026. The current repositories are
+`FastFence` and `FastEcho`. The supplied `llama-lovers/presentations` URL returned
+404, so presentation links use `FastFence/presentation` and the supplied YouTube
+recordings. Private invitation links and team-only judging scores are excluded.
 
-## GitHub Pages
+## Deployment
 
-Workflow `.github/workflows/pages.yml` sprawdza pull requesty i publikuje
-`main` przez oficjalny artefakt Pages. Repozytorium korzysta z **Settings → Pages → Source → GitHub Actions**.
+The workflow `.github/workflows/pages.yml` checks pull requests and deploys `main`
+with the official GitHub Pages artifact. The repository is configured for
+**Settings → Pages → Source → GitHub Actions**, with custom domain `llama-lovers.org`.
 
-Domena produkcyjna: `llama-lovers.org` (`site_url` i `docs/CNAME`).
-W **Settings → Pages → Custom domain** ustaw `llama-lovers.org`, a po
-zakończeniu weryfikacji DNS i wystawieniu certyfikatu włącz **Enforce HTTPS**.
+`site_url` and `docs/CNAME` specify the production domain. With Actions deployments,
+the custom domain must also be set in the repository Pages settings; CNAME alone
+does not configure it. DNS was already routed through Cloudflare during setup.
 
-DNS u operatora domeny:
-
-| Typ | Nazwa | Wartość |
-| --- | --- | --- |
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-| CNAME | www | llama-lovers.github.io |
-
-Nie dodawaj nowych rekordów A obok starych, konfliktujących rekordów.
-Oficjalne instrukcje: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
-
-Domena była już przypisana do Pages przez Cloudflare podczas wdrożenia.
-Publikowanie wymaga konfiguracji Pages w ustawieniach repozytorium;
-plik CNAME w artefakcie sam nie zmienia ustawień dla wdrożeń GitHub Actions.
+Official domain setup reference:
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site

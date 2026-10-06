@@ -1,48 +1,52 @@
 ---
-title: Projekty
+title: Projects
 ---
-<p class="eyebrow">NASZE LABORATORIUM / OPEN SOURCE</p>
-# Pomysły, które można uruchomić.
+# Projects
 
-<p class="lead">Bezpieczeństwo AI, dostępność internetu, dane miejskie i computer vision. Każdy projekt to inny problem i kolejna okazja, żeby zbudować coś użytecznego.</p>
+Open-source work across AI security, accessibility, urban analytics and computer vision. Explore a project, read the documentation and try it locally.
 
-<div class="project-grid" markdown>
-<div class="info-card" markdown>
-<span class="tag">AI SECURITY · HACKYEAH 2026</span>
+<div class="grid cards" markdown>
 
-## FastFence
+-   **FastFence**
 
-Warstwa kontroli między aplikacjami, agentami, modelami i narzędziami. Reguły bezpieczeństwa, limity zasobów i audyt w jednym miejscu.
+    *AI security · HackYeah 2026*
 
-[Poznaj projekt →](fastfence.md){ .text-link }
+    ---
+
+    A control layer between applications, agents, models and tools. Centralized policies, resource limits and sanitized audit records.
+
+    [Project overview →](fastfence.md) · [Documentation ↗](https://fastfence.dev/)
+
+-   **FastEcho**
+
+    *Accessibility · HackYeah 2026*
+
+    ---
+
+    A Chrome extension for blind and low-vision users: explore a page, request an action and hear the observed result.
+
+    [Project overview →](fastecho.md) · [GitHub ↗](https://github.com/llama-lovers/FastEcho)
+
+-   **Urban Kompas**
+
+    *Urban data · Lublin*
+
+    ---
+
+    An urban analytics project for UrbanLab Lublin. FastAPI, PostgreSQL/PostGIS and React meet deck.gl maps and a data-processing pipeline.
+
+    [GitHub ↗](https://github.com/llama-lovers/urban-kompas)
+
+-   **Breathalyzer**
+
+    *Computer vision · Hackology II*
+
+    ---
+
+    Object detection in COCO format, combining YOLO models, test-time augmentation and Weighted Box Fusion.
+
+    [GitHub ↗](https://github.com/llama-lovers/breathalyzer)
+
 </div>
-<div class="info-card" markdown>
-<span class="tag">ACCESSIBILITY · HACKYEAH 2026</span>
 
-## FastEcho
-
-Rozszerzenie Chrome, które pomaga osobom niewidomym i słabowidzącym korzystać z witryn przez polskie komendy głosowe.
-
-[Poznaj projekt →](fastecho.md){ .text-link }
-</div>
-<div class="info-card" markdown>
-<span class="tag">URBAN DATA · LUBLIN</span>
-
-## Urban Kompas
-
-Projekt analityki danych miejskich dla UrbanLab Lublin. Łączy FastAPI, PostgreSQL/PostGIS i React z mapami deck.gl oraz pipeline’em danych.
-
-[Zobacz kod na GitHub ↗](https://github.com/llama-lovers/urban-kompas){ .text-link }
-</div>
-<div class="info-card" markdown>
-<span class="tag">COMPUTER VISION · HACKOLOGY II</span>
-
-## Breathalyzer
-
-Rozwiązanie zadania detekcji obiektów w formacie COCO. Wykorzystuje modele YOLO, augmentację podczas inferencji i Weighted Box Fusion do łączenia predykcji.
-
-[Zobacz kod na GitHub ↗](https://github.com/llama-lovers/breathalyzer){ .text-link }
-</div>
-</div>
-
-Opisy pozostałych projektów na podstawie ich publicznych README: [Urban Kompas](https://github.com/llama-lovers/urban-kompas) i [Breathalyzer](https://github.com/llama-lovers/breathalyzer).
+Technical descriptions are based on the projects' public repositories. For hackathon context, slides and recordings, see [Hackathon projects](../hackathons.md).

@@ -1,21 +1,60 @@
 site_name: Llama Lovers
 site_url: https://llama-lovers.org/
-site_description: Tworzymy otwarte projekty AI. Poznaj Llama Lovers, nasze produkty i zespół.
+site_description: An engineering team building open-source AI, security and accessibility projects.
 repo_url: https://github.com/llama-lovers
-copyright: Llama Lovers · Zbudowane z ciekawości.
+repo_name: llama-lovers
+copyright: Copyright 2026 Llama Lovers
+strict: true
 theme:
-  name: null
-  custom_dir: theme
+  name: material
+  language: en
+  logo: assets/llama-lovers-logo.png
+  favicon: assets/llama-lovers-logo.png
+  font: false
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 nav:
-  - Nasz zespół: team.md
-  - Projekty: projects/index.md
-  - Na hackathonach: hackathons.md
+  - Home: index.md
+  - Our team: team.md
+  - Projects:
+      - Overview: projects/index.md
+      - FastFence: projects/fastfence.md
+      - FastEcho: projects/fastecho.md
+  - Hackathon projects:
+      - Overview: hackathons.md
+      - Presentations and demos: presentations.md
   - GitHub: github.md
-plugins: []
+plugins:
+  - search:
+      lang: en
 markdown_extensions:
+  - admonition
   - attr_list
   - md_in_html
   - tables
-  - fenced_code
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
 extra_css:
   - stylesheets/site.css

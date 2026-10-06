@@ -1,40 +1,42 @@
 ---
 title: FastEcho
 ---
-<p class="eyebrow">PROJEKT 02 / ACCESSIBILITY / HACKYEAH 2026</p>
 # FastEcho
 
-<p class="lead">Powiedz, czego potrzebujesz. Usłysz, co wydarzyło się na stronie.</p>
+**Say what you need. Hear what actually happened on the page.**
 
-[Repozytorium ↗](https://github.com/llama-lovers/FastEcho){ .button }
-[Zobacz demo ↗](https://youtu.be/zODavr68b5s){ .button .secondary }
+[GitHub ↗](https://github.com/llama-lovers/FastEcho){ .md-button .md-button--primary }
+[Watch the demo ↗](https://youtu.be/zODavr68b5s){ .md-button }
 
-## Problem
+## The problem
 
-Czytniki ekranu pozwalają korzystać z internetu, ale znalezienie właściwej kontrolki bywa czasochłonne. Nieopisane przyciski, złożone formularze i dynamiczne menu dokładają kolejne bariery.
+Screen readers make the web accessible, but locating a control or completing a complex form can take considerable effort. Unlabelled buttons, dynamic menus and poorly described fields add further barriers.
 
-## Nasze podejście
+## Our approach
 
-FastEcho to rozszerzenie Chrome dla osób niewidomych i słabowidzących. Rozumie polskie polecenia, analizuje strukturę i dostępne etykiety strony, wykonuje zweryfikowane akcje i opisuje zaobserwowany wynik. Odpowiedzi przekazuje przez czytnik ekranu lub lokalny głos Piper.
+FastEcho is a Chrome extension for blind and low-vision users. It interprets Polish voice commands, reads the page structure and accessible labels, executes validated actions and describes the observed result. Users can hear responses through their screen reader or a local Piper voice.
 
-<div class="quote-panel"><span class="eyebrow">JEDNA ROZMOWA, KONKRETNY REZULTAT</span><p>„Co mogę zrobić?”<br>„Sprawdź status przesyłki.”<br>„Powtórz.”</p><span>Rozpoczęcie i wysłanie nagrania: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></span></div>
+## What the prototype does
 
-## Co potrafi prototyp
+- Describe the current page and suggest available actions.
+- Click controls, fill ordinary form fields and scroll.
+- Validate action targets and compare the page state after execution.
+- Repeat responses, adjust detail and handle confirmation questions.
+- Deliver feedback through a screen reader, local Piper or Chrome TTS fallback.
 
-- Opisać bieżącą stronę i zaproponować dostępne działania.
-- Kliknąć kontrolkę, wypełnić zwykłe pole formularza i przewinąć stronę.
-- Sprawdzić cel przed wykonaniem akcji oraz porównać stan strony po niej.
-- Powtórzyć odpowiedź, zmienić jej szczegółowość i obsłużyć potwierdzenie.
-- Współpracować z czytnikiem ekranu, lokalnym Piperem i awaryjnym Chrome TTS.
+Press **Alt+Shift+A** to start recording, and press it again to submit a command.
 
-## Architektura i prywatność
+## Architecture and privacy
 
-Rozszerzenie Manifest V3 współpracuje z lokalnym backendem FastAPI. Rozpoznawanie mowy i wnioskowanie w pełnym trybie korzystają z OpenRouter. Piper syntetyzuje odpowiedzi lokalnie.
+The Manifest V3 extension works with a local FastAPI backend. The full voice workflow uses OpenRouter for transcription and model reasoning. Piper synthesizes responses locally.
 
-Rozpoznane dane wrażliwe są maskowane w kontekście strony. Rozszerzenie odmawia akcji na chronionych polach i rozpoznanych CAPTCHA. Maskowanie jest heurystyką, nie pełną gwarancją. **Nagranie w trybie rzeczywistej transkrypcji trafia do OpenRouter przed maskowaniem tekstu** — nie należy dyktować haseł ani sekretów.
+Recognized sensitive data is masked in page context. The executor refuses protected fields and recognized CAPTCHA targets. Masking is heuristic, rather than a complete guarantee.
 
-## Wypróbuj
+!!! note "Audio is a separate data path"
+    In real transcription mode, recordings are sent to OpenRouter before transcript masking. Do not dictate passwords or secrets.
 
-[README FastEcho](https://github.com/llama-lovers/FastEcho#quick-start) zawiera wymagania, budowę rozszerzenia, uruchomienie backendu, lokalną stronę demo i konfigurację Pipera.
+## Try it
 
-Źródło: [repozytorium i dokumentacja FastEcho](https://github.com/llama-lovers/FastEcho).
+The [FastEcho quick start](https://github.com/llama-lovers/FastEcho#quick-start) covers requirements, building the extension, starting the backend, local fixtures and Piper configuration.
+
+[Hackathon context →](../hackathons.md)
