@@ -1,5 +1,6 @@
 ---
 title: Urban Kompas
+description: Urban Kompas helps residents navigate municipal services in Lublin using BIP sources, document OCR, retrieval and answers with citations.
 ---
 # Urban Kompas
 

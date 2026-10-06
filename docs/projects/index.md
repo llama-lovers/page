@@ -1,5 +1,6 @@
 ---
 title: Projects
+description: 'Explore Llama Lovers projects: FastFence AI security, FastEcho accessible browsing, Urban Kompas municipal services and shelf product detection.'
 ---
 # Projects
 

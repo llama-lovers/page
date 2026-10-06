@@ -1,5 +1,6 @@
 ---
 title: FastEcho
+description: FastEcho is a Chrome extension for blind and low-vision users, with Polish voice commands, validated browser actions and screen-reader feedback.
 ---
 # FastEcho
 

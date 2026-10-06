@@ -1,5 +1,6 @@
 ---
 title: Hackathon projects
+description: Llama Lovers hackathon projects from HackYeah 2026, UrbanLab and Hackology II, with team information, source code, presentations and demos.
 ---
 # Hackathon projects
 

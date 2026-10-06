@@ -1,5 +1,6 @@
 ---
 title: Our team
+description: 'Meet the Llama Lovers team: Illia Bahlai, Bartłomiej Kapuśniak, Maksim Maltsau, Michał Szulierz and Jakub Janusz.'
 ---
 # Our team
 

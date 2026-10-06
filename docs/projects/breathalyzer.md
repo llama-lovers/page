@@ -1,5 +1,6 @@
 ---
 title: Shelf product detection
+description: 'Team 08 shelf product detection for Hackology II: YOLO fine-tuning, pseudo-labeling and five-source fusion, with public mAP@0.5 of 0.7420.'
 ---
 # Shelf product detection
 

@@ -1,5 +1,6 @@
 ---
 title: Llama Lovers
+description: Llama Lovers develops open-source AI and software projects, including FastFence, FastEcho, Urban Kompas and a Hackology II object detector.
 ---
 # Llama Lovers
 

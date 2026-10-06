@@ -1,5 +1,6 @@
 ---
 title: GitHub
+description: Find the Llama Lovers GitHub repositories, project source code, setup instructions and contribution links.
 ---
 # GitHub
 

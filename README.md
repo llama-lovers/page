@@ -48,3 +48,22 @@ does not configure it. DNS was already routed through Cloudflare during setup.
 
 Official domain setup reference:
 https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+## Search indexing
+
+Each page has a unique description, an HTTPS canonical URL, Open Graph metadata
+and Organization/WebSite/WebPage JSON-LD. `docs/robots.txt` permits crawling and
+points to the MkDocs-generated sitemap. The 404 page is marked `noindex`.
+
+Validate the build:
+
+```sh
+.venv/bin/mkdocs build --strict
+.venv/bin/python scripts/check_seo.py
+```
+
+After deployment, submit `https://llama-lovers.org/sitemap.xml` in the verified
+Google Search Console property and request indexing for the homepage through
+URL Inspection. Verification must be completed by an account with access to the
+domain or a Google-provided verification token. It is independent of GitHub Pages
+deployment and does not guarantee immediate indexing.

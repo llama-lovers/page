@@ -1,5 +1,6 @@
 ---
 title: Presentations and demos
+description: Original Llama Lovers hackathon presentations and demos for FastFence, FastEcho, Urban Kompas and the Hackology II shelf product detector.
 ---
 # Presentations and demos
 

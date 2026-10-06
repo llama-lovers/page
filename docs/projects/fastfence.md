@@ -1,5 +1,6 @@
 ---
 title: FastFence
+description: FastFence is an open-source policy gateway for AI agents, models and tools, with data protection, request controls and live policy updates.
 ---
 # FastFence
 
