@@ -3,54 +3,52 @@ title: Hackathon projects
 ---
 # Hackathon projects
 
-Hackathons give us a place to experiment, work together and turn an idea into a demonstrable solution under a tight deadline.
+Three events, four projects. Explore the challenge, our approach and the original presentation or demonstration.
 
 ## HackYeah 2026
 
-**Team:** Illia Bahlai, Bartłomiej Kapuśniak, Michał Szulierz and Jakub Janusz.
+Illia Bahlai, Bartłomiej Kapuśniak, Michał Szulierz and Jakub Janusz worked on two projects.
 
 <div class="grid cards" markdown>
 
--   **FastFence — AI control layer**
+-   **FastFence**
 
-    *Goldman Sachs partner challenge*
-
-    ---
-
-    Policies between AI agents, models and tools, with reviewed configuration changes, tests and sanitized reporting.
-
-    **Project lead:** Illia Bahlai.
-
-    [Project →](projects/fastfence.md) · [YouTube demo ↗](https://youtu.be/mGUgZJC3diA)
-
-    [PDF slides ↗](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.pdf) · [PowerPoint ↗](https://github.com/llama-lovers/FastFence/blob/main/presentation/output/fastfence-submission.pptx)
-
--   **FastEcho — accessible browsing**
-
-    *Open task: Artificial Intelligence*
+    *Goldman Sachs · AI control layer*
 
     ---
 
-    Conversational browsing in Polish for blind and low-vision users, with validated actions and observed-result feedback.
+    **Lead: Illia Bahlai.** Reviewed policies that affect the next model or tool call, with sensitive-data controls and sanitized decision reporting.
 
-    **Project lead:** Bartłomiej Kapuśniak.
+    [Project](projects/fastfence.md) · [Slides](assets/presentations/fastfence.pdf) · [Demo ↗](https://youtu.be/mGUgZJC3diA)
 
-    [Project →](projects/fastecho.md) · [YouTube demo ↗](https://youtu.be/zODavr68b5s)
+-   **FastEcho**
 
-    [Code and setup instructions ↗](https://github.com/llama-lovers/FastEcho)
+    *Open task · Artificial Intelligence*
+
+    ---
+
+    **Lead: Bartłomiej Kapuśniak.** Voice-driven browsing for blind and low-vision users, including page exploration, validated actions and result feedback.
+
+    [Project](projects/fastecho.md) · [Demo ↗](https://youtu.be/zODavr68b5s)
 
 </div>
 
+## UrbanLab challenge · 2026
+
+### Urban Kompas
+
+An assistant for residents navigating municipal services. The MVP connects BIP sources, document OCR, semantic retrieval and a chat interface. The final deck describes a complete question-to-answer workflow with source citations and uncertainty handling.
+
+[Project](projects/urban-kompas.md){ .md-button .md-button--primary }
+[Final presentation](assets/presentations/urban-kompas.pptx){ .md-button }
+
 ## Hackology II · May 2026
 
-### Breathalyzer — object detection
+### Shelf product detection · Team 08
 
-A 24-hour object-detection challenge in COCO format. The solution combines YOLO models, test-time augmentation and Weighted Box Fusion to merge predictions.
+The team combined YOLO fine-tuning, pseudo-labeling, multiple inference resolutions and Weighted Box Fusion. The slides report a **public mAP@0.5 of 0.7420**, using five prediction sources from four unique model weights.
 
-[Explore the solution ↗](https://github.com/llama-lovers/breathalyzer){ .md-button }
+[Project](projects/breathalyzer.md){ .md-button .md-button--primary }
+[Team 08 slides](assets/presentations/hackology.pdf){ .md-button }
 
-## Presentations and demos
-
-Watch the recordings and explore the available project slides and technical materials.
-
-[Browse presentations →](presentations.md){ .md-button .md-button--primary }
+[All presentations and demos →](presentations.md)

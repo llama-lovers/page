@@ -14,7 +14,7 @@ Our projects live on GitHub. Explore the source, read the setup instructions and
 | --- | --- |
 | [FastFence ↗](https://github.com/llama-lovers/FastFence) | AI controls, policies, tests, documentation and presentation materials. |
 | [FastEcho ↗](https://github.com/llama-lovers/FastEcho) | Chrome extension, backend and local accessibility demo. |
-| [Urban Kompas ↗](https://github.com/llama-lovers/urban-kompas) | Urban analytics, maps and a data-processing pipeline. |
+| [Urban Kompas ↗](https://github.com/llama-lovers/urban-kompas) | Municipal-service assistant with BIP sources, RAG and document OCR. |
 | [Breathalyzer ↗](https://github.com/llama-lovers/breathalyzer) | Object detection, notebooks and prediction fusion. |
 | [This website ↗](https://github.com/llama-lovers/page) | The MkDocs source for llama-lovers.org. |
 

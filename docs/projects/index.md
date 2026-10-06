@@ -3,50 +3,50 @@ title: Projects
 ---
 # Projects
 
-Open-source work across AI security, accessibility, urban analytics and computer vision. Explore a project, read the documentation and try it locally.
+Four projects across AI control, accessible browsing, municipal services and product detection. Each has source code and a specific problem behind it.
 
 <div class="grid cards" markdown>
 
 -   **FastFence**
 
-    *AI security · HackYeah 2026*
+    *AI control layer · HackYeah 2026*
 
     ---
 
-    A control layer between applications, agents, models and tools. Centralized policies, resource limits and sanitized audit records.
+    Review and activate policies without changing agent code. Protect data and control operations across REST, OpenAI-compatible, MCP and ACP interfaces.
 
-    [Project overview →](fastfence.md) · [Documentation ↗](https://fastfence.dev/)
+    [Project →](fastfence.md) · [Presentation](../assets/presentations/fastfence.pdf)
 
 -   **FastEcho**
 
-    *Accessibility · HackYeah 2026*
+    *Accessible browsing · HackYeah 2026*
 
     ---
 
-    A Chrome extension for blind and low-vision users: explore a page, request an action and hear the observed result.
+    A Chrome extension for blind and low-vision users. Polish voice commands, validated browser actions and feedback about the observed result.
 
-    [Project overview →](fastecho.md) · [GitHub ↗](https://github.com/llama-lovers/FastEcho)
+    [Project →](fastecho.md) · [Watch demo ↗](https://youtu.be/zODavr68b5s)
 
 -   **Urban Kompas**
 
-    *Urban data · Lublin*
+    *Municipal services · UrbanLab challenge*
 
     ---
 
-    An urban analytics project for UrbanLab Lublin. FastAPI, PostgreSQL/PostGIS and React meet deck.gl maps and a data-processing pipeline.
+    An AI assistant for residents. Finds public-service procedures in BIP sources and documents, then explains steps, attachments and the responsible office.
 
-    [GitHub ↗](https://github.com/llama-lovers/urban-kompas)
+    [Project →](urban-kompas.md) · [Presentation](../assets/presentations/urban-kompas.pptx)
 
--   **Breathalyzer**
+-   **Shelf product detection**
 
-    *Computer vision · Hackology II*
+    *Computer vision · Hackology II · Breathalyzer repository*
 
     ---
 
-    Object detection in COCO format, combining YOLO models, test-time augmentation and Weighted Box Fusion.
+    Detect and classify products on dense store shelves. Five prediction sources, four model weights and a reported public mAP@0.5 of 0.7420.
 
-    [GitHub ↗](https://github.com/llama-lovers/breathalyzer)
+    [Project →](breathalyzer.md) · [Presentation](../assets/presentations/hackology.pdf)
 
 </div>
 
-Technical descriptions are based on the projects' public repositories. For hackathon context, slides and recordings, see [Hackathon projects](../hackathons.md).
+[Hackathon projects and materials →](../hackathons.md){ .md-button }

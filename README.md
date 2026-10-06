@@ -1,7 +1,7 @@
 # Llama Lovers — llama-lovers.org
 
 English-only team website built with **MkDocs Material**, published on **GitHub Pages**.
-It uses the same Material layout and teal accents as FastFence, a white/light and
+It uses the Material layout and teal accents as FastFence, a white/light and
 black/dark palette, and the supplied llama artwork as a theme-aware logo and background.
 The theme selector remembers the visitor's choice. Light mode is the initial default.
 
@@ -29,9 +29,9 @@ Default address: http://127.0.0.1:8000.
 - `docs/stylesheets/site.css`: theme-aware branding and llama background.
 
 Public project URLs were checked on 6 October 2026. The current repositories are
-`FastFence` and `FastEcho`. The supplied `llama-lovers/presentations` URL returned
-404, so presentation links use `FastFence/presentation` and the supplied YouTube
-recordings. Private invitation links and team-only judging scores are excluded.
+`FastFence` and `FastEcho`. The presentation repository is now accessible and provides the FastFence,
+Hackology II and Urban Kompas decks. Those files are served locally from
+`docs/assets/presentations/`; deck text is the source for project descriptions. Private invitation links and team-only judging scores are excluded.
 
 ## Deployment
 

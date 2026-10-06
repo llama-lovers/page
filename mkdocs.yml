@@ -40,6 +40,8 @@ nav:
       - Overview: projects/index.md
       - FastFence: projects/fastfence.md
       - FastEcho: projects/fastecho.md
+      - Urban Kompas: projects/urban-kompas.md
+      - Shelf product detection: projects/breathalyzer.md
   - Hackathon projects:
       - Overview: hackathons.md
       - Presentations and demos: presentations.md

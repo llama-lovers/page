@@ -2,14 +2,14 @@
 title: Llama Lovers
 description: Meet Llama Lovers, an engineering team building open-source AI, security and accessibility projects.
 ---
-<div class="landing-brand">
+<div class="landing-brand" markdown>
 <img class="llama-logo" src="assets/llama-lovers-logo.png" alt="Llama Lovers: a smiling llama with a code symbol" width="1254" height="1254">
 <div markdown>
 # Llama Lovers
 
-**An engineering team. A shared curiosity. Open-source code.**
+**Open-source projects in AI, accessibility and software engineering.**
 
-We bring together software engineering, AI and data science to turn ideas into working tools. From accessible browsing to AI security, we build, test and share what we learn.
+Explore our projects, meet the team and watch our hackathon demonstrations.
 
 [Explore our projects](projects/index.md){ .md-button .md-button--primary }
 [Meet the team](team.md){ .md-button }
@@ -36,25 +36,25 @@ We bring together software engineering, AI and data science to turn ideas into w
 
     [Explore FastEcho →](projects/fastecho.md)
 
--   **Urban Kompas — urban data**
+-   **Urban Kompas — public services**
 
     ---
 
-    Urban analytics with geospatial data, interactive maps and a data-processing pipeline.
+    An assistant that helps residents navigate municipal services, with answers grounded in BIP sources and documents.
 
-    [View the repository ↗](https://github.com/llama-lovers/urban-kompas)
+    [Explore Urban Kompas →](projects/urban-kompas.md)
 
 -   **Breathalyzer — computer vision**
 
     ---
 
-    An object-detection solution developed for Hackology II, combining YOLO models and prediction fusion.
+    Shelf product detection for Hackology II. Five prediction sources, four model weights and a reported public mAP@0.5 of 0.7420.
 
-    [View the repository ↗](https://github.com/llama-lovers/breathalyzer)
+    [Explore the project →](projects/breathalyzer.md)
 
 </div>
 
-## Built together, demonstrated in practice
+## Hackathon projects
 
 Our HackYeah 2026 projects explore two different challenges: controlling AI interactions with **FastFence** and making the web easier to navigate with **FastEcho**.
 
@@ -63,6 +63,6 @@ Our HackYeah 2026 projects explore two different challenges: controlling AI inte
 
 ## Follow the code
 
-Browse our repositories, try a project locally or contribute an issue or pull request.
+Source code, setup instructions and project documentation are available on GitHub.
 
 [llama-lovers on GitHub ↗](https://github.com/llama-lovers){ .md-button .md-button--primary }
