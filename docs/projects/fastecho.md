@@ -3,16 +3,16 @@ title: FastEcho
 ---
 # FastEcho
 
-**Say what you need. Hear what actually happened on the page.**
+FastEcho is a Chrome extension that lets blind and low-vision users control websites through Polish voice commands.
 
-[GitHub ↗](https://github.com/llama-lovers/FastEcho){ .md-button .md-button--primary }
-[Watch the demo ↗](https://youtu.be/zODavr68b5s){ .md-button }
+[GitHub](https://github.com/llama-lovers/FastEcho)
+[Watch the demo](https://youtu.be/zODavr68b5s)
 
 ## The problem
 
 Screen readers make the web accessible, but locating a control or completing a complex form can take considerable effort. Unlabelled buttons, dynamic menus and poorly described fields add further barriers.
 
-## Our approach
+## Implementation
 
 FastEcho is a Chrome extension for blind and low-vision users. It interprets Polish voice commands, reads the page structure and accessible labels, executes validated actions and describes the observed result. Users can hear responses through their screen reader or a local Piper voice.
 
@@ -39,4 +39,4 @@ Recognized sensitive data is masked in page context. The executor refuses protec
 
 The [FastEcho quick start](https://github.com/llama-lovers/FastEcho#quick-start) covers requirements, building the extension, starting the backend, local fixtures and Piper configuration.
 
-[Hackathon context →](../hackathons.md)
+[Hackathon context](../hackathons.md)

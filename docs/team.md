@@ -3,64 +3,38 @@ title: Our team
 ---
 # Our team
 
-Five people with complementary skills in software engineering, AI, data science and communication. We work together from the initial idea to a working demonstration.
+## Illia Bahlai
 
-<div class="grid cards team-cards" markdown>
+Team Lead & AI Solutions Engineer. Software architecture, AI, backend development, DevOps and cloud.
 
--   **Illia Bahlai**
+[GitHub: Lim0H](https://github.com/Lim0H)
 
-    *Team Lead & AI Solutions Engineer*
+## Bartłomiej Kapuśniak
 
-    ---
+Fullstack Developer / Software Engineer. Backend, frontend, databases, software architecture and testing.
 
-    Software architecture, AI solutions, backend development, DevOps and cloud.
+[GitHub: bartbrassica](https://github.com/bartbrassica)
 
-    [@Lim0H ↗](https://github.com/Lim0H)
+## Maksim Maltsau
 
--   **Bartłomiej Kapuśniak**
+Marketing Specialist & Engineer.
 
-    *Fullstack Developer · Software Engineer*
+[GitHub: M4ximito](https://github.com/M4ximito)
 
-    ---
+## Michał Szulierz
 
-    Backend, frontend, databases, software architecture and testing.
+Software Developer. AI and data science.
 
-    [@bartbrassica ↗](https://github.com/bartbrassica)
+[GitHub: Michal0607](https://github.com/Michal0607)
 
--   **Maksim Maltsau**
+## Jakub Janusz
 
-    *Marketing Specialist & Engineer*
+AI Engineer / Backend Developer. Graduate of Lublin University of Technology and student at WSPA.
 
-    ---
+[GitHub: JakisTam-maTsikaJ](https://github.com/JakisTam-maTsikaJ)
 
-    Engineering and marketing, connecting technical work with project communication.
+## HackYeah 2026
 
-    [@M4ximito ↗](https://github.com/M4ximito)
+Illia, Bartłomiej, Michał and Jakub worked on FastFence and FastEcho. Illia led FastFence; Bartłomiej led FastEcho.
 
--   **Michał Szulierz**
-
-    *Software Developer · AI & Data Science*
-
-    ---
-
-    Programming, artificial intelligence and working with data.
-
-    [@Michal0607 ↗](https://github.com/Michal0607)
-
--   **Jakub Janusz**
-
-    *AI Engineer · Backend Developer*
-
-    ---
-
-    AI and backend development. Graduate of Lublin University of Technology and student at WSPA in Lublin.
-
-    [@JakisTam-maTsikaJ ↗](https://github.com/JakisTam-maTsikaJ)
-
-</div>
-
-## HackYeah 2026 team
-
-Illia, Bartłomiej, Michał and Jakub worked on FastFence and FastEcho. Illia led the FastFence team; Bartłomiej led the FastEcho team.
-
-[See our hackathon projects →](hackathons.md)
+[Hackathon projects](hackathons.md)

@@ -7,8 +7,8 @@ title: Shelf product detection
 
 Detect and classify products in photographs of crowded store shelves. The challenge includes visually similar product variants, small objects and an imbalanced set of 369 categories.
 
-[GitHub ↗](https://github.com/llama-lovers/breathalyzer){ .md-button .md-button--primary }
-[Open presentation](../assets/presentations/hackology.pdf){ .md-button }
+[GitHub](https://github.com/llama-lovers/breathalyzer)
+[Open presentation](../assets/presentations/hackology.pdf)
 
 ![Hackology Team 08 presentation cover](../assets/presentations/hackology-cover.png)
 

@@ -9,8 +9,8 @@ Original materials from the team's [presentation repository](https://github.com/
 
 Ten slides covering live policy changes, Laya rule review, MCP and ACP controls, authorized restoration, OCR and tests. The slides distinguish local-tool demonstrations from real-model checks and state the scope of benchmark results.
 
-[Open PDF](assets/presentations/fastfence.pdf){ .md-button .md-button--primary }
-[YouTube demo ↗](https://youtu.be/mGUgZJC3diA){ .md-button }
+[Open PDF](assets/presentations/fastfence.pdf)
+[YouTube demo](https://youtu.be/mGUgZJC3diA)
 
 <a href="../assets/presentations/fastfence.pdf"><img src="../assets/presentations/fastfence-cover.png" alt="FastFence presentation cover" width="1200" height="675" loading="lazy"></a>
 
@@ -22,15 +22,15 @@ Ten slides covering live policy changes, Laya rule review, MCP and ACP controls,
 
 Voice commands, page exploration, validated browser actions and screen-reader or local speech feedback.
 
-[Watch demo on YouTube ↗](https://youtu.be/zODavr68b5s){ .md-button .md-button--primary }
-[Project overview](projects/fastecho.md){ .md-button }
+[Watch demo on YouTube](https://youtu.be/zODavr68b5s)
+[Project overview](projects/fastecho.md)
 
 ## Urban Kompas · UrbanLab challenge
 
 The final 13-slide deck explains the resident's problem, the MVP, the BIP → OCR → retrieval → answer workflow, the architecture and a demonstration scenario. It also lists the work needed before a pilot.
 
-[Download PowerPoint](assets/presentations/urban-kompas.pptx){ .md-button .md-button--primary }
-[Project overview](projects/urban-kompas.md){ .md-button }
+[Download PowerPoint](assets/presentations/urban-kompas.pptx)
+[Project overview](projects/urban-kompas.md)
 
 ![System diagram from the Urban Kompas presentation repository](assets/presentations/urban-architecture.png)
 
@@ -38,8 +38,8 @@ The final 13-slide deck explains the resident's problem, the MVP, the BIP → OC
 
 The six-slide Team 08 presentation covers individual YOLO models, fine-tuning, pseudo-labeling and the final aggregation of predictions. Reported result: **0.7420 mAP@0.5** on the public evaluation.
 
-[Open PDF](assets/presentations/hackology.pdf){ .md-button .md-button--primary }
-[Project overview](projects/breathalyzer.md){ .md-button }
+[Open PDF](assets/presentations/hackology.pdf)
+[Project overview](projects/breathalyzer.md)
 
 <a href="../assets/presentations/hackology.pdf"><img src="../assets/presentations/hackology-cover.png" alt="Hackology Team 08 presentation cover" width="1200" height="675" loading="lazy"></a>
 

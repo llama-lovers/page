@@ -19,6 +19,9 @@ Default address: http://127.0.0.1:8000.
 .venv/bin/mkdocs build --strict
 ```
 
+The pages use ordinary Markdown headings, paragraphs and links. There are no
+project cards, promotional headlines or CTA buttons.
+
 ## Content
 
 - `docs/team.md`: our team.

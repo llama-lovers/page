@@ -3,12 +3,12 @@ title: Urban Kompas
 ---
 # Urban Kompas
 
-**An AI assistant that guides residents through public services in Lublin.**
+Urban Kompas is an AI assistant for municipal services in Lublin.
 
-A resident should not have to know a procedure's official name to find the right form. Urban Kompas turns a natural-language question into steps, required documents, the responsible office and links to municipal sources.
+It retrieves the relevant procedure and explains the required steps, documents and responsible office, with links to municipal sources.
 
-[GitHub ↗](https://github.com/llama-lovers/urban-kompas){ .md-button .md-button--primary }
-[Download presentation](../assets/presentations/urban-kompas.pptx){ .md-button }
+[GitHub](https://github.com/llama-lovers/urban-kompas)
+[Download presentation](../assets/presentations/urban-kompas.pptx)
 
 ## The hackathon prototype
 

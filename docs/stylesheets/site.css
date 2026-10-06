@@ -11,10 +11,7 @@
   --llama-logo-filter: none;
   --llama-logo-blend: multiply;
   --llama-panel: #fff;
-  --llama-card: #fafcfb;
   --llama-line: #e1e7e4;
-  --llama-button-bg: #00796b;
-  --llama-button-fg: #fff;
 }
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #101010;
@@ -35,10 +32,7 @@
   --llama-logo-filter: invert(1);
   --llama-logo-blend: screen;
   --llama-panel: #101010;
-  --llama-card: #171a19;
   --llama-line: #303634;
-  --llama-button-bg: #76dbc8;
-  --llama-button-fg: #101010;
 }
 body { background-color: var(--md-default-bg-color); isolation: isolate; }
 body::before {
@@ -66,8 +60,6 @@ body::before {
 }
 .md-content {
   background: var(--llama-panel);
-  border: 1px solid var(--llama-line);
-  border-radius: .35rem;
   min-width: 0;
 }
 .md-content__inner { padding: .9rem 1.1rem 1.4rem; }
@@ -75,64 +67,23 @@ body::before {
 .md-sidebar__scrollwrap { background: transparent; }
 /* Preserve the standard Material navigation and table-of-contents layout. */
 .md-main__inner { margin-top: 1.5rem; margin-bottom: 1.5rem; }
-.landing-brand {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--llama-line);
-}
+/* Original logo colors follow the selected palette. */
 .llama-logo {
   display: block;
-  width: 11rem;
-  max-width: 30%;
+  width: 9rem;
+  max-width: 45vw;
   height: auto;
-  flex-shrink: 0;
+  margin: 0 0 1rem;
   filter: var(--llama-logo-filter);
   mix-blend-mode: var(--llama-logo-blend);
 }
-.landing-brand h1 { margin: 0 0 .7rem; }
-.md-typeset .md-button {
-  margin: .3rem .4rem .3rem 0;
-  padding: .5rem .85rem;
-  border: 1px solid var(--llama-button-bg);
-  border-radius: .25rem;
-  background: transparent;
-  color: var(--llama-button-bg);
-  font-size: .7rem;
-  font-weight: 600;
-}
-.md-typeset .md-button--primary,
-.md-typeset .md-button:hover,
-.md-typeset .md-button:focus-visible {
-  background: var(--llama-button-bg);
-  color: var(--llama-button-fg);
-  border-color: var(--llama-button-bg);
-}
-.md-typeset .grid.cards > ul { gap: .85rem; }
-.md-typeset .grid.cards > ul > li {
-  background: var(--llama-card);
-  border-radius: .3rem;
-  border-color: var(--llama-line);
-  padding: 1rem 1.1rem;
-}
-.md-typeset .grid.cards > ul > li:hover { box-shadow: none; border-color: var(--md-typeset-a-color); }
-.md-typeset .grid.cards > ul > li > p:first-child strong { font-size: .9rem; }
 .md-typeset a:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 3px; }
 .ll-slide-viewer { width: 100%; height: 32rem; border: 1px solid var(--llama-line); }
 .ll-video { width: 100%; display: block; margin-top: 1rem; }
 @media(max-width: 760px) {
-  .landing-brand { flex-direction: column; align-items: flex-start; gap: .7rem; }
-  .llama-logo { width: 8rem; max-width: 55%; }
+  .llama-logo { width: 7rem; }
   .md-main__inner { margin-top: 1rem; margin-bottom: 1rem; }
   .md-content__inner { padding: 1rem .8rem; }
   body::before { background-size: 560px auto; }
   .ll-slide-viewer { height: 24rem; }
 }
-
-/* Cards and action groups share one layout throughout the site. */
-.md-typeset .grid.cards > ul > li { display: flex; flex-direction: column; }
-.md-typeset .grid.cards > ul > li > hr { width: 100%; }
-.md-typeset .grid.cards > ul > li > p:last-child { margin-top: auto; padding-top: .5rem; }
-.md-typeset .grid.cards > ul > li .md-button { font-size: .65rem; }

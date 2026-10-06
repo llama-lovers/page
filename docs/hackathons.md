@@ -3,75 +3,40 @@ title: Hackathon projects
 ---
 # Hackathon projects
 
-Three events, four projects. Explore the challenge, our approach and the original presentation or demonstration.
-
 ## HackYeah 2026
 
-Illia Bahlai, Bartłomiej Kapuśniak, Michał Szulierz and Jakub Janusz worked on two projects.
+Team: Illia Bahlai, Bartłomiej Kapuśniak, Michał Szulierz and Jakub Janusz.
 
-<div class="grid cards" markdown>
+### FastFence
 
--   **FastFence**
+Goldman Sachs partner task: AI control layer. Team lead: Illia Bahlai.
 
-    *Goldman Sachs · AI control layer*
+A gateway that applies policies to model and tool requests. The demonstration includes live policy updates, data protection, Laya rule review, document OCR and integration checks.
 
-    ---
+[Project](projects/fastfence.md) · [Slides](assets/presentations/fastfence.pdf) · [Demo](https://youtu.be/mGUgZJC3diA)
 
-    Reviewed policies that affect the next model or tool call, with sensitive-data controls and sanitized decision reporting.
+### FastEcho
 
-    **Lead:** Illia Bahlai.
+Open task: Artificial Intelligence. Team lead: Bartłomiej Kapuśniak.
 
-    [Project](projects/fastfence.md){ .md-button .md-button--primary }
-    [Slides](assets/presentations/fastfence.pdf){ .md-button }
-    [Demo ↗](https://youtu.be/mGUgZJC3diA){ .md-button }
+A Chrome extension for voice-controlled browsing. It can explore a page, execute validated actions and announce the observed result.
 
--   **FastEcho**
-
-    *Open task · Artificial Intelligence*
-
-    ---
-
-    Voice-driven browsing for blind and low-vision users, including page exploration, validated actions and result feedback.
-
-    **Lead:** Bartłomiej Kapuśniak.
-
-    [Project](projects/fastecho.md){ .md-button .md-button--primary }
-    [Demo ↗](https://youtu.be/zODavr68b5s){ .md-button }
-
-</div>
+[Project](projects/fastecho.md) · [Demo](https://youtu.be/zODavr68b5s)
 
 ## UrbanLab challenge · 2026
 
-<div class="grid cards" markdown>
+### Urban Kompas
 
--   **Urban Kompas**
+The prototype connects BIP sources, document OCR, semantic retrieval and a chat interface. It explains municipal procedures with source citations and identifies missing information.
 
-    *Municipal services · RAG and OCR*
-
-    ---
-
-    An assistant for residents navigating municipal services. The MVP connects BIP sources, document OCR, semantic retrieval and a chat interface, with source citations and uncertainty handling.
-
-    [Project](projects/urban-kompas.md){ .md-button .md-button--primary }
-    [Slides](assets/presentations/urban-kompas.pptx){ .md-button }
-
-</div>
+[Project](projects/urban-kompas.md) · [Slides](assets/presentations/urban-kompas.pptx)
 
 ## Hackology II · May 2026
 
-<div class="grid cards" markdown>
+### Shelf product detection · Team 08
 
--   **Shelf product detection**
+YOLO fine-tuning, pseudo-labeling, multiple inference resolutions and Weighted Box Fusion. The final ensemble has five prediction sources from four unique model weights. The slides report a public mAP@0.5 of 0.7420.
 
-    *Computer vision · Team 08*
+[Project](projects/breathalyzer.md) · [Slides](assets/presentations/hackology.pdf)
 
-    ---
-
-    YOLO fine-tuning, pseudo-labeling, multiple inference resolutions and Weighted Box Fusion. The slides report a public mAP@0.5 of **0.7420**, using five prediction sources from four unique model weights.
-
-    [Project](projects/breathalyzer.md){ .md-button .md-button--primary }
-    [Slides](assets/presentations/hackology.pdf){ .md-button }
-
-</div>
-
-[All presentations and demos](presentations.md){ .md-button }
+[All presentations and demos](presentations.md)

@@ -3,16 +3,16 @@ title: FastFence
 ---
 # FastFence
 
-**Security policies between AI agents, models and tools.**
+FastFence is a policy gateway for requests between AI agents, models and tools.
 
-[Documentation ↗](https://fastfence.dev/){ .md-button .md-button--primary }
-[GitHub ↗](https://github.com/llama-lovers/FastFence){ .md-button }
+[Documentation](https://fastfence.dev/)
+[GitHub](https://github.com/llama-lovers/FastFence)
 
 ## The problem
 
 AI agents interact with models, APIs and tools. These interactions can expose sensitive information, invoke unauthorized operations or consume excessive resources. Rules scattered across application code are difficult to maintain and test consistently.
 
-## Our approach
+## Implementation
 
 FastFence centralizes controls between an application and its models or tools. It combines local rules with semantic assessment. In the management console, users can describe a supported rule with Laya, inspect the proposed change, test examples and activate a reviewed policy without restarting the gateway.
 
@@ -27,8 +27,8 @@ FastFence centralizes controls between an application and its models or tools. I
 
 Built for the Goldman Sachs **AI control layer** partner challenge. The final demonstration covers policy editing, protection decisions, Laya review, document processing and integration examples.
 
-[Presentation and demo →](../presentations.md){ .md-button }
-[Hackathon context →](../hackathons.md){ .md-button }
+[Presentation and demo](../presentations.md)
+[Hackathon context](../hackathons.md)
 
 ## Run locally
 
