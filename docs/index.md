@@ -29,7 +29,7 @@ Explore our projects, meet the team and watch our hackathon demonstrations.
 
     Policies between AI agents, models and tools. Review changes, test their impact and inspect security decisions.
 
-    [Explore FastFence →](projects/fastfence.md)
+    [Project](projects/fastfence.md){ .md-button .md-button--primary }
 
 -   **FastEcho — accessible browsing**
 
@@ -37,7 +37,7 @@ Explore our projects, meet the team and watch our hackathon demonstrations.
 
     A Chrome extension that helps blind and low-vision users interact with websites through voice commands.
 
-    [Explore FastEcho →](projects/fastecho.md)
+    [Project](projects/fastecho.md){ .md-button .md-button--primary }
 
 -   **Urban Kompas — public services**
 
@@ -45,7 +45,7 @@ Explore our projects, meet the team and watch our hackathon demonstrations.
 
     An assistant that helps residents navigate municipal services, with answers grounded in BIP sources and documents.
 
-    [Explore Urban Kompas →](projects/urban-kompas.md)
+    [Project](projects/urban-kompas.md){ .md-button .md-button--primary }
 
 -   **Breathalyzer — computer vision**
 
@@ -53,7 +53,7 @@ Explore our projects, meet the team and watch our hackathon demonstrations.
 
     Shelf product detection for Hackology II. Five prediction sources, four model weights and a reported public mAP@0.5 of 0.7420.
 
-    [Explore the project →](projects/breathalyzer.md)
+    [Project](projects/breathalyzer.md){ .md-button .md-button--primary }
 
 </div>
 

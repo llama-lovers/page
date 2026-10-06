@@ -1,5 +1,8 @@
 ---
 title: FastFence
+hide:
+  - navigation
+  - toc
 ---
 # FastFence
 

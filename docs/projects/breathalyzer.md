@@ -1,5 +1,8 @@
 ---
 title: Shelf product detection
+hide:
+  - navigation
+  - toc
 ---
 # Shelf product detection
 

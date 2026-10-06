@@ -73,8 +73,8 @@ body::before {
 .md-content__inner { margin: 0; padding: 1.5rem 1.7rem; }
 /* No full-height painted rectangles in the sidebars. */
 .md-sidebar__scrollwrap { background: transparent; }
-/* The homepage uses the header navigation, with no documentation sidebars. */
-.md-main__inner:has(.landing-brand) { max-width: 52rem; margin-top: 2rem; margin-bottom: 2rem; }
+/* Every page shares the same width and uses the header navigation. */
+.md-main__inner { max-width: 52rem; margin-top: 2rem; margin-bottom: 2rem; }
 .landing-brand {
   display: flex;
   align-items: center;
@@ -92,7 +92,8 @@ body::before {
   filter: var(--llama-logo-filter);
   mix-blend-mode: var(--llama-logo-blend);
 }
-.landing-brand h1 { margin: 0 0 .7rem; font-weight: 650; }
+.landing-brand h1 { margin: 0 0 .7rem; }
+.md-typeset h1 { font-weight: 650; }
 .md-typeset h2 { font-weight: 550; }
 .md-typeset .md-button {
   margin: .3rem .4rem .3rem 0;
@@ -119,15 +120,21 @@ body::before {
   padding: 1rem 1.1rem;
 }
 .md-typeset .grid.cards > ul > li:hover { box-shadow: none; border-color: var(--md-typeset-a-color); }
-.team-cards strong { font-size: 1.05rem; }
+.md-typeset .grid.cards > ul > li > p:first-child strong { font-size: .9rem; }
 .md-typeset a:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 3px; }
 .ll-slide-viewer { width: 100%; height: 32rem; border: 1px solid var(--llama-line); }
 .ll-video { width: 100%; display: block; margin-top: 1rem; }
 @media(max-width: 760px) {
   .landing-brand { flex-direction: column; align-items: flex-start; gap: .7rem; }
   .llama-logo { width: 8rem; max-width: 55%; }
-  .md-main__inner:has(.landing-brand) { margin-top: 1rem; margin-bottom: 1rem; }
+  .md-main__inner { margin-top: 1rem; margin-bottom: 1rem; }
   .md-content__inner { padding: 1rem .8rem; }
   body::before { background-size: 560px auto; }
   .ll-slide-viewer { height: 24rem; }
 }
+
+/* Cards and action groups share one layout throughout the site. */
+.md-typeset .grid.cards > ul > li { display: flex; flex-direction: column; }
+.md-typeset .grid.cards > ul > li > hr { width: 100%; }
+.md-typeset .grid.cards > ul > li > p:last-child { margin-top: auto; padding-top: .5rem; }
+.md-typeset .grid.cards > ul > li .md-button { font-size: .65rem; }

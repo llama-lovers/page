@@ -1,5 +1,8 @@
 ---
 title: FastEcho
+hide:
+  - navigation
+  - toc
 ---
 # FastEcho
 

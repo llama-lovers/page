@@ -1,5 +1,8 @@
 ---
 title: Projects
+hide:
+  - navigation
+  - toc
 ---
 # Projects
 
@@ -15,7 +18,8 @@ Four projects across AI control, accessible browsing, municipal services and pro
 
     Review and activate policies without changing agent code. Protect data and control operations across REST, OpenAI-compatible, MCP and ACP interfaces.
 
-    [Project →](fastfence.md) · [Presentation](../assets/presentations/fastfence.pdf)
+    [Project](fastfence.md){ .md-button .md-button--primary }
+    [Slides](../assets/presentations/fastfence.pdf){ .md-button }
 
 -   **FastEcho**
 
@@ -25,7 +29,8 @@ Four projects across AI control, accessible browsing, municipal services and pro
 
     A Chrome extension for blind and low-vision users. Polish voice commands, validated browser actions and feedback about the observed result.
 
-    [Project →](fastecho.md) · [Watch demo ↗](https://youtu.be/zODavr68b5s)
+    [Project](fastecho.md){ .md-button .md-button--primary }
+    [Demo ↗](https://youtu.be/zODavr68b5s){ .md-button }
 
 -   **Urban Kompas**
 
@@ -35,7 +40,8 @@ Four projects across AI control, accessible browsing, municipal services and pro
 
     An AI assistant for residents. Finds public-service procedures in BIP sources and documents, then explains steps, attachments and the responsible office.
 
-    [Project →](urban-kompas.md) · [Presentation](../assets/presentations/urban-kompas.pptx)
+    [Project](urban-kompas.md){ .md-button .md-button--primary }
+    [Slides](../assets/presentations/urban-kompas.pptx){ .md-button }
 
 -   **Shelf product detection**
 
@@ -45,7 +51,8 @@ Four projects across AI control, accessible browsing, municipal services and pro
 
     Detect and classify products on dense store shelves. Five prediction sources, four model weights and a reported public mAP@0.5 of 0.7420.
 
-    [Project →](breathalyzer.md) · [Presentation](../assets/presentations/hackology.pdf)
+    [Project](breathalyzer.md){ .md-button .md-button--primary }
+    [Slides](../assets/presentations/hackology.pdf){ .md-button }
 
 </div>
 
