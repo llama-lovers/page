@@ -1,5 +1,8 @@
 ---
 title: Llama Lovers
+hide:
+  - navigation
+  - toc
 description: Meet Llama Lovers, an engineering team building open-source AI, security and accessibility projects.
 ---
 <div class="landing-brand" markdown>
