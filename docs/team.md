@@ -18,13 +18,13 @@ Fullstack Developer / Software Engineer. Backend, frontend, databases, software 
 
 ## Maksim Maltsau
 
-Marketing Specialist & Engineer.
+Backend Developer & Marketing Specialist.
 
 [GitHub: M4ximito](https://github.com/M4ximito)
 
 ## Michał Szulierz
 
-Software Developer. AI and data science.
+Software Developer. AI and data science. Technical university graduate.
 
 [GitHub: Michal0607](https://github.com/Michal0607)
 
