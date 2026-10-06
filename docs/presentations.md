@@ -1,8 +1,5 @@
 ---
 title: Presentations and demos
-hide:
-  - navigation
-  - toc
 ---
 # Presentations and demos
 

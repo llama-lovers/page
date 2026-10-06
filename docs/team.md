@@ -1,8 +1,5 @@
 ---
 title: Our team
-hide:
-  - navigation
-  - toc
 ---
 # Our team
 

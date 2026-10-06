@@ -1,8 +1,5 @@
 ---
 title: Urban Kompas
-hide:
-  - navigation
-  - toc
 ---
 # Urban Kompas
 

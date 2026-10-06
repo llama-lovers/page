@@ -1,8 +1,5 @@
 ---
 title: GitHub
-hide:
-  - navigation
-  - toc
 ---
 # GitHub
 

@@ -1,8 +1,5 @@
 ---
 title: Projects
-hide:
-  - navigation
-  - toc
 ---
 # Projects
 

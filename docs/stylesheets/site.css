@@ -70,11 +70,11 @@ body::before {
   border-radius: .35rem;
   min-width: 0;
 }
-.md-content__inner { margin: 0; padding: 1.5rem 1.7rem; }
+.md-content__inner { padding: .9rem 1.1rem 1.4rem; }
 /* No full-height painted rectangles in the sidebars. */
 .md-sidebar__scrollwrap { background: transparent; }
-/* Every page shares the same width and uses the header navigation. */
-.md-main__inner { max-width: 52rem; margin-top: 2rem; margin-bottom: 2rem; }
+/* Preserve the standard Material navigation and table-of-contents layout. */
+.md-main__inner { margin-top: 1.5rem; margin-bottom: 1.5rem; }
 .landing-brand {
   display: flex;
   align-items: center;
@@ -93,8 +93,6 @@ body::before {
   mix-blend-mode: var(--llama-logo-blend);
 }
 .landing-brand h1 { margin: 0 0 .7rem; }
-.md-typeset h1 { font-weight: 650; }
-.md-typeset h2 { font-weight: 550; }
 .md-typeset .md-button {
   margin: .3rem .4rem .3rem 0;
   padding: .5rem .85rem;

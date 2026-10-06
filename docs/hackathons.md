@@ -1,8 +1,5 @@
 ---
 title: Hackathon projects
-hide:
-  - navigation
-  - toc
 ---
 # Hackathon projects
 
